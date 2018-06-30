@@ -1,0 +1,8 @@
+# Exclude generated code from git.
+setwp*.mcfunction
+delwp*.mcfunction
+wp*.mcfunction
+
+# listwps-load.mcfunction is hand-coded.
+listwps-command.mcfunction
+listwps-tick.mcfunction 

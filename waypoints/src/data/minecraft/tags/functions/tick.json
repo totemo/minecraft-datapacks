@@ -1,0 +1,8 @@
+{
+    "values": [
+        "io.totemo.waypoints:listwps-tick",
+        "io.totemo.waypoints:death-tick",
+        "io.totemo.waypoints:bed-tick"
+    ]
+}
+
