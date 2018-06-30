@@ -1,6 +1,8 @@
 # minecraft-datapacks
 Assorted vanilla Minecraft datapacks.
 
+![Coordinates and waypoints](https://github.com/totemo/minecraft-datapacks/blob/master/images/demo.png)
+
 The datapacks are:
 
  * `coords.zip` - shows player coordinates in the action bar.
