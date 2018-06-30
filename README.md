@@ -11,7 +11,7 @@ The datapacks are:
 
 Simply download `coords.zip` and place it in the `world/datapacks/` folder under the server directory.
 
-For custom waypoints and the `!help` command, download `waypoints.zip` and `help.zip` and place them in `world/datapacks/` then configure the `mark2` server wrapper per the #mark2 section below.
+For custom waypoints and the `!help` command, download `waypoints.zip` and `help.zip` and place them in `world/datapacks/` then configure the `mark2` server wrapper per the [Mark2 Configuration](https://github.com/totemo/minecraft-datapacks/tree/master#mark2-configuration) section below.
 
 
 ## Custom Commands
