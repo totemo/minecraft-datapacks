@@ -56,3 +56,11 @@ The start of `triggers.txt` should read as follows:
 ```
 
 The [mark2/gentriggers.sh](https://github.com/totemo/minecraft-datapacks/blob/master/mark2/gentriggers.sh) script generates a `triggers.new` file that can be appended to `triggers.txt` to supply all of the custom commands for waypoints 0..9, a..z and A..Z.
+
+
+## Building
+
+Each of the datapacks has a `build.sh` (Linux) shell script that generates the ZIP file of the datapack. Simply run that.
+
+The waypoints datapack uses `waypoints/generate.sh` to generate functions for each of the 62 player-set waypoints; `waypoints/build.sh` runs it automatically.
+
