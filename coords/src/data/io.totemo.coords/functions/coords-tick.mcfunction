@@ -7,10 +7,6 @@ execute as @a store result score @s Y run data get entity @s Pos[1] 1.0
 execute as @a store result score @s Z run data get entity @s Pos[2] 1.0
 execute as @a store result score @s Bearing run data get entity @s Rotation[0]
 
-# AFAIK constants need to be stored in a scoreboard objective.
-# We create a scoreboard objective called const, and give each constant
-# the same name as its value.
-
 # Adjust bearing to compass convention.
 scoreboard players operation @a Bearing += 540 const
 scoreboard players operation @a Bearing %= 360 const
@@ -23,7 +19,7 @@ scoreboard players operation @a Octant += 45 const
 scoreboard players operation @a Octant /= 90 const
 scoreboard players operation @a Octant %= 8 const
 
-# Debugging Bearing and O:
+# Debugging Bearing and Octant:
 #title @a title {"text":""}
 #title @a subtitle [{"text":"X ","color":"gray"},{"score":{"name":"*","objective":"X"},"color":"white"},{"text":" Y ","color":"gray"},{"score":{"name":"*","objective":"Y"},"color":"white"},{"text":" Z ","color":"gray"},{"score":{"name":"*","objective":"Z"},"color":"white"},{"text":" B ","color":"gray"},{"score":{"name":"*","objective":"Bearing"},"color":"white"},{"text":" O ","color":"gray"},{"score":{"name":"*","objective":"Octant"},"color":"white"}]
 
