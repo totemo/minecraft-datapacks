@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "pack_format": 1,
+        "description": "Warn the player when lack of sleep would spawn phantoms."
+    }
+}
