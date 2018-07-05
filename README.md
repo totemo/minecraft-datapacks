@@ -8,12 +8,14 @@ The datapacks are:
  * `coords.zip` - shows player coordinates in the action bar.
  * `waypoints.zip` - manages 62 player-set waypoints plus automatically updated bed and death location waypoints.
  * `help.zip` - provides a function that implements a basic help command by calling help functions from the other datapacks.
+ * `fatigue.zip` - warns the player when lack of sleep would spawn phantoms.
+
 
 ## Installation
 
-Simply download `coords.zip` and place it in the `world/datapacks/` folder under the server directory.
+For all datapacks, download the zip file from [the releases page](https://github.com/totemo/minecraft-datapacks/releases) and place it in the `world/datapacks/` folder under the server directory. The packs are all independent of each other, but it makes no sense to install the help pack without `coords.zip` or `waypoints.zip`.
 
-For custom waypoints and the `!help` command, download `waypoints.zip` and `help.zip` and place them in `world/datapacks/` then configure the `mark2` server wrapper per the [Mark2 Configuration](https://github.com/totemo/minecraft-datapacks/tree/master#mark2-configuration) section below.
+In addition, to use custom commands beginning with `!`, you will need to configure the server wrapper (e.g. `mark2`) according to the instructions in the [Mark2 Configuration](https://github.com/totemo/minecraft-datapacks/tree/master#mark2-configuration) section below.
 
 
 ## Custom Commands
@@ -27,7 +29,7 @@ Custom commands are supported using the [mark2 server wrapper](https://github.co
  * `waypoints.zip` datapack:
    * `!bed` - Get your bed coordinates.
    * `!death` - Get your latest death coordinates.
-   * `!setwpX` - Store waypoint _X_ as your current location. X can be 0..9, a..z or A..Z (62 waypoints). Examples: `!setwp9`, `!setwpz`, `!setwpZ`
+   * `!setwpX` - Store waypoint _X_ as your current location. _X_ can be 0..9, a..z or A..Z (62 waypoints). Examples: `!setwp9`, `!setwpz`, `!setwpZ`
    * `!delwpX` - Delete waypoint _X_. _X_ as per `!setwpX`.
    * `!wpX` - Get the coordinates of waypoint _X_. "Dim" (dimension) in the output is: -1 = nether, 0 = overworld, +1 = end. Examples: `!wp1` = get `!setwp1` and `!wpa` = get `!setwpa`
    * `!listwps` - List all of your waypoints.
