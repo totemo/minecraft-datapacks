@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "pack_format": 1,
+        "description":"Kill nearby cartographers after trading to prevent server crash in pre6."
+    }
+}
