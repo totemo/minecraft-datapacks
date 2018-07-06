@@ -9,7 +9,7 @@ The datapacks are:
  * `waypoints.zip` - manages 62 player-set waypoints plus automatically updated bed and death location waypoints.
  * `help.zip` - provides a function that implements a basic help command by calling help functions from the other datapacks.
  * `fatigue.zip` - warns the player when lack of sleep would spawn phantoms.
-
+ * `cartokill.zip` - kills cartographers near the player when they trade with villagers, in order to prevent a server crash when a cartographer unlocks its explorer map trade; this only applies on pre-release servers with a map generated before pre6 (I think).
 
 ## Installation
 
