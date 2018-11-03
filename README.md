@@ -10,6 +10,8 @@ The datapacks are:
  * `help.zip` - provides a function that implements a basic help command by calling help functions from the other datapacks.
  * `fatigue.zip` - warns the player when lack of sleep would spawn phantoms.
  * `cartokill.zip` - kills cartographers near the player when they trade with villagers, in order to prevent a server crash when a cartographer unlocks its explorer map trade; this only applies on pre-release servers with a map generated before pre6 (I think).
+ * `recipes.zip` - adds smelting recipes to create smooth blocks, like in the 1.14 snapshots: `stone` smelts to `smooth_stone`, `quartz` smelts to `smooth_quartz`, `sandstone` smelts to `smooth_sandstone` and `red_sandstone` smelts to `smooth_red_sandstone`.
+
 
 ## Installation
 
